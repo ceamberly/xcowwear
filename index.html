@@ -4,62 +4,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XCOTHIC | Clothing Store</title>
+    <meta name="description" content="XCOTHIC clothing store. Find your own style.">
 
-    <!-- CSS -->
+    <title>XCOTHIC — Clothing Store</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <!-- HEADER -->
-    <header>
-        <h1>XCOTHIC</h1>
+    <header class="header">
+        <div class="container header-content">
+            <a href="#home" class="logo">XCO<span>THIC</span></a>
+
+            <nav class="navigation">
+                <a href="#home">Home</a>
+                <a href="#kategori">Kategori</a>
+                <a href="#koleksi">Koleksi</a>
+            </nav>
+
+            <a href="#koleksi" class="header-button">Explore ↗</a>
+        </div>
     </header>
 
-    <!-- NAVIGASI -->
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#kategori">Kategori</a></li>
-            <li><a href="#produk">Produk</a></li>
-        </ul>
-    </nav>
-
-    <!-- KONTEN UTAMA -->
     <main>
 
-        <!-- BERANDA -->
-        <section id="home">
-            <p class="subtitle">WELCOME TO XCOTHIC</p>
-            <h2>WEAR YOUR OWN STORY.</h2>
-            <p class="description">
-                Temukan gaya yang mencerminkan dirimu.
-                Simpel, berkarakter, dan autentik.
-            </p>
-            <a href="#produk" class="button">Jelajahi Koleksi ↗</a>
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="hero-background"></div>
+
+            <div class="container hero-content">
+                <p class="hero-label">XCOTHIC · SINCE 2024</p>
+
+                <h1>
+                    FIND YOUR<br>
+                    OWN <span>STYLE.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Bukan sekadar pakaian. Temukan karakter,
+                    ekspresikan gaya, dan jadilah dirimu sendiri.
+                </p>
+
+                <a href="#koleksi" class="primary-button">
+                    Explore Collection <span>↗</span>
+                </a>
+            </div>
+
+            <div class="hero-decoration">XC.</div>
+
+            <div class="hero-bottom">
+                <span>YOUR STYLE, YOUR STORY</span>
+                <span>01 — XCOTHIC</span>
+            </div>
         </section>
 
         <!-- KATEGORI -->
-        <section id="kategori">
-            <h2>Kategori</h2>
-            <p class="section-description">
-                Temukan kategori pakaian pilihanmu.
-            </p>
+        <section class="categories section-padding" id="kategori">
+            <div class="container">
+
+                <div class="section-heading">
+                    <div>
+                        <p class="section-label">DISCOVER YOUR STYLE</p>
+                        <h2>Explore Categories<span>.</span></h2>
+                    </div>
+
+                    <p class="section-note">
+                        Simpel dalam tampilan,<br>
+                        kuat dalam karakter.
+                    </p>
+                </div>
+
+                <div class="category-grid">
+
+                    <a href="#koleksi" class="category-card">
+                        <span class="category-index">01 / APPAREL</span>
+                        <div>
+                            <h3>All Tees</h3>
+                            <p>Everyday essentials</p>
+                        </div>
+                        <span class="category-arrow">↗</span>
+                    </a>
+
+                    <a href="#koleksi" class="category-card">
+                        <span class="category-index">02 / COLLECTION</span>
+                        <div>
+                            <h3>New Arrival</h3>
+                            <p>Discover the latest</p>
+                        </div>
+                        <span class="category-arrow">↗</span>
+                    </a>
+
+                    <a href="#koleksi" class="category-card">
+                        <span class="category-index">03 / XCOTHIC</span>
+                        <div>
+                            <h3>Coming Soon</h3>
+                            <p>Something is coming</p>
+                        </div>
+                        <span class="category-arrow">↗</span>
+                    </a>
+
+                </div>
+            </div>
         </section>
 
-        <!-- PRODUK -->
-        <section id="produk">
-            <h2>Koleksi XCOTHIC</h2>
-            <p class="section-description">
-                Koleksi produk akan ditampilkan di sini.
-            </p>
+        <!-- KOLEKSI PRODUK -->
+        <section class="collection section-padding" id="koleksi">
+            <div class="container">
+
+                <div class="section-heading">
+                    <div>
+                        <p class="section-label">MADE FOR YOUR STYLE</p>
+                        <h2>Our Collection<span>.</span></h2>
+                    </div>
+                </div>
+
+                <div class="collection-placeholder">
+                    <div class="placeholder-symbol">X</div>
+                    <h3>Collection is on the way.</h3>
+                    <p>
+                        Koleksi XCOTHIC akan ditampilkan
+                        di bagian ini.
+                    </p>
+                </div>
+
+            </div>
         </section>
 
     </main>
 
     <!-- FOOTER -->
-    <footer>
-        <p>&copy; 2026 XCOTHIC. All rights reserved.</p>
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="footer-logo">XCOTHIC<span>.</span></a>
+
+            <p>Wear your own story.</p>
+
+            <p>© 2026 XCOTHIC</p>
+        </div>
     </footer>
 
 </body>
